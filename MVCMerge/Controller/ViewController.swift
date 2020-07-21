@@ -18,7 +18,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var Name1: UILabel!
     @IBOutlet weak var Age1: UILabel!
-    @IBOutlet weak var AttackCount: UILabel!
+    
+    @IBOutlet weak var AttackCount1: UILabel!
     
     
     @IBOutlet weak var Name2: UILabel!
@@ -30,25 +31,29 @@ class ViewController: UIViewController {
     @IBOutlet weak var Age3: UILabel!
     @IBOutlet weak var AttackCount3: UILabel!
     
-    let nameString1 = String()
-    let nameString2 = String()
-    let nameString3 = String()
-    
-    let AgeNumber1 = Int()
-    let AgeNumber2 = Int()
-    let AgeNumber3 = Int()
-    
-    let AttackCountString1 = String()
-    let AttackCountString2 = String()
-    let AttackCountString3 = String()
+   
+ 
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
        
-    
+    let pikatyu1 = Person(name: "ピカチュー１", age: 10, AttackCount: 100)
+    let pikatyu2 = Person(name: "ピカチュー2", age: 20, AttackCount: 200)
+    let pikatyu3 = Person(name: "ピカチュー3", age: 30, AttackCount: 300)
        
+        Name1.text = pikatyu1.name
+        Age1.text = String(pikatyu1.age)
+        AttackCount1.text = String(pikatyu1.AttackCount)
+        
+        Name2.text = pikatyu2.name
+        Age2.text = String(pikatyu2.age)
+        AttackCount2.text = String(pikatyu2.AttackCount)
+        
+        Name3.text = pikatyu3.name
+        Age3.text = String(pikatyu3.age)
+        AttackCount3.text = String(pikatyu3.AttackCount)
         
     }
 

@@ -103,6 +103,7 @@
                         <outlet property="Age1" destination="F9D-ar-kt1" id="mWh-un-HOi"/>
                         <outlet property="Age2" destination="BDy-Z1-vVY" id="71b-lI-FO4"/>
                         <outlet property="Age3" destination="wX0-Af-c5U" id="aTV-ef-zzb"/>
+                        <outlet property="AttackCount1" destination="QtT-z8-fo2" id="Dg6-VK-V34"/>
                         <outlet property="AttackCount2" destination="nRt-Mo-pZa" id="Dsa-X7-m1n"/>
                         <outlet property="AttackCount3" destination="lUC-l7-VC2" id="iYE-67-zCM"/>
                         <outlet property="Name1" destination="ciD-24-Vel" id="1dE-CI-zxa"/>
