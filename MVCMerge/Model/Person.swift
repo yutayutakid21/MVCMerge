@@ -10,5 +10,15 @@ import Foundation
 
 struct Person {
     
+    let name: String
+    let age : Int
+    let AttackCount: String
+
+    
+    init(name:String, age: Int, AttackCount: String) {
+      self.name = name
+      self.age = age
+      self.AttackCount = AttackCount
   
+ }
 }
