@@ -16,15 +16,32 @@ class ViewController: UIViewController {
      */
     
     
+    @IBOutlet weak var Name1: UILabel!
+    @IBOutlet weak var Age1: UILabel!
+    @IBOutlet weak var AttackCount: UILabel!
+    
+    
+    @IBOutlet weak var Name2: UILabel!
+    @IBOutlet weak var Age2: UILabel!
+    @IBOutlet weak var AttackCount2: UILabel!
+    
+    
+    @IBOutlet weak var Name3: UILabel!
+    @IBOutlet weak var Age3: UILabel!
+    @IBOutlet weak var AttackCount3: UILabel!
     
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+       
+       
+        
     }
 
+    
+    
 
 }
 
