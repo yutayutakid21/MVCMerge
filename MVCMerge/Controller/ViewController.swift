@@ -30,16 +30,30 @@ class ViewController: UIViewController {
     @IBOutlet weak var Age3: UILabel!
     @IBOutlet weak var AttackCount3: UILabel!
     
+    let nameString1 = String()
+    let nameString2 = String()
+    let nameString3 = String()
+    
+    let AgeNumber1 = Int()
+    let AgeNumber2 = Int()
+    let AgeNumber3 = Int()
+    
+    let AttackCountString1 = String()
+    let AttackCountString2 = String()
+    let AttackCountString3 = String()
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
        
+    
        
         
     }
 
+    
+  
     
     
 
